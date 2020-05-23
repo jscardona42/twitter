@@ -51,9 +51,9 @@
     @isset($tweets)
     <fieldset class="p-4 fieldset-blue">
         <legend class="w-auto p-2 text-bold text-center">Listado de tweets</legend>
-        <div class="row mt-4 text-center mx-auto">
+        <div class="row mt-4 text-center justify-content-center">
             @foreach($tweets as $tweet)
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="card">
                     <div class="card-header">
                         <p>{{ $tweet->name}}</p>
